@@ -107,6 +107,6 @@ class ProductController extends Controller
 
         Product::where('id', $id)->update($validatedData);
 
-        return redirect()->route('products.show', $id)->with('success','Stok produk berhasil diperbarui.');
+        return redirect()->route('products.index', $id)->with('success','Stok produk berhasil diperbarui.');
     }
 }
