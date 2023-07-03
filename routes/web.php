@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\PesananController;
+
 
 
 /*
